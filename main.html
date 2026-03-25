@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Joy Beauty Parlour Thika— Luxury Salon & Spa</title>
+  <link rel="stylesheet" href="side.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="#home"><span class="rg">Joy Beauty Parlour </span> Spa</a>
+
+      <nav class="nav" id="mainNav">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button id="btnHamburger" class="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div id="mobileNav" class="mobile-nav" aria-hidden="true">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <!-- HERO (slideshow background) -->
+  <section id="home" class="hero">
+    <div class="slides">
+      <div class="slide active" style="background-image:url('hero1.jpg')"></div>
+      <div class="slide" style="background-image:url('hero2.jpg')"></div>
+      <div class="slide" style="background-image:url('hero3.jpg')"></div>
+    </div>
+
+    <div class="hero-inner wrap">
+      <div class="hero-left">
+        <h1 class="title">Joy Beauty Parlour Thika</h1>
+        <p class="lead">Where modern luxury meets calm.<br> Signature massages • facials • bridal beauty • Gel pedicure
+          • Braiding • Wig installation • Nail art</p>
+
+        <div class="hero-ctas">
+          <a class="btn btn-gold" href="#services">Explore Services</a>
+          <button class="btn btn-outline" id="openBook">Book Now</button>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="quick-card">
+          <h4>Opening Hours</h4>
+          <p>Mon - Sun · 07:00 Am — 07:00 Pm</p>
+          <hr>
+          <h4>Phone</h4>
+          <p><a href="tel:+254700000000">+254 745 723 795</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section id="services" class="section services">
+    <div class="wrap">
+      <h2 class="section-title">Our Services</h2>
+
+      <div class="services-grid">
+
+        <!-- Hair Services -->
+        <article class="service">
+          <div class="service-head">
+            <i class="fa-solid fa-scissors icon"></i>
+            <div>
+              <h3>Hair Services</h3>
+              <p class="muted">Professional styling & hair care solutions</p>
+            </div>
+          </div>
+
+          <div class="service-body">
+            <p class="desc">
+              Expert hair services tailored to enhance your look and maintain healthy, beautiful hair using quality
+              products and modern techniques.
+            </p>
+
+            <div class="options">
+              <label class="option">
+                <input type="radio" name="hair" checked>
+                <div class="opt-box">
+                  <div>Braiding & Styling</div>
+                </div>
+              </label>
+
+              <label class="option">
+                <input type="radio" name="hair">
+                <div class="opt-box">
+                  <div>Wig Installation</div>
+                </div>
+              </label>
+
+              <label class="option">
+                <input type="radio" name="hair">
+                <div class="opt-box">
+                  <div>Weaves & Extensions</div>
+                </div>
+              </label>
+
+              <label class="option">
+                <input type="radio" name="hair">
+                <div class="opt-box">
+                  <div>Hair Treatment</div>
+                </div>
+              </label>
+            </div>
+
+            <div class="service-actions">
+              <button class="btn btn-gold book-now" data-service="Hair Services">Book</button>
+              <a class="btn btn-outline" href="projects/hair.html">Details</a>
+            </div>
+          </div>
+        </article>
+
+
+        <!-- Makeup Services -->
+        <article class="service">
+          <div class="service-head">
+            <i class="fa-solid fa-palette icon"></i>
+            <div>
+              <h3>Makeup Services</h3>
+              <p class="muted">Flawless looks for every occasion</p>
+            </div>
+          </div>
+
+          <div class="service-body">
+            <p class="desc">
+              Enhance your natural beauty with professional makeup services designed for events, special occasions, and
+              everyday confidence.
+            </p>
+
+            <div class="options">
+              <label class="option">
+                <input type="radio" name="makeup" checked>
+                <div class="opt-box">
+                  <div>Party Makeup</div>
+                </div>
+              </label>
+
+              <label class="option">
+                <input type="radio" name="makeup">
+                <div class="opt-box">
+                  <div>Bridal Makeup</div>
+                </div>
+              </label>
+
+              <label class="option">
+                <input type="radio" name="makeup">
+                <div class="opt-box">
+                  <div>Eyelash Extensions</div>
+                </div>
+              </label>
+
+              <label class="option">
+                <input type="radio" name="makeup">
+                <div class="opt-box">
+                  <div>Eyebrow Shaping</div>
+                </div>
+              </label>
+            </div>
+
+            <div class="service-actions">
+              <button class="btn btn-gold book-now" data-service="Makeup Services">Book</button>
+              <a class="btn btn-outline" href="projects/makeup.html">Details</a>
+            </div>
+          </div>
+        </article>
+
+
+        <!-- Feet Services -->
+        <article class="service">
+          <div class="service-head">
+            <i class="fa-solid fa-spa icon"></i>
+            <div>
+              <h3>Feet Care</h3>
+              <p class="muted">Relaxing and rejuvenating treatments</p>
+            </div>
+          </div>
+
+          <div class="service-body">
+            <p class="desc">
+              Indulge in soothing foot care treatments that promote relaxation, hygiene, and overall wellness.
+            </p>
+
+            <div class="options">
+              <label class="option">
+                <input type="radio" name="feet" checked>
+                <div class="opt-box">
+                  <div>Gel Pedicure</div>
+                </div>
+              </label>
+
+              <label class="option">
+                <input type="radio" name="feet">
+                <div class="opt-box">
+                  <div>Spa Pedicure</div>
+                </div>
+              </label>
+
+              <label class="option">
+                <input type="radio" name="feet">
+                <div class="opt-box">
+                  <div>Callus Removal</div>
+                </div>
+              </label>
+
+              <label class="option">
+                <input type="radio" name="feet">
+                <div class="opt-box">
+                  <div>Foot Scrub & Massage</div>
+                </div>
+              </label>
+            </div>
+
+            <div class="service-actions">
+              <button class="btn btn-gold book-now" data-service="Feet Care">Book</button>
+              <a class="btn btn-outline" href="projects/feet.html">Details</a>
+            </div>
+          </div>
+        </article>
+
+
+        <!-- Waxing -->
+        <article class="service">
+          <div class="service-head">
+            <i class="fa-solid fa-droplet icon"></i>
+            <div>
+              <h3>Waxing Services</h3>
+              <p class="muted">Smooth, clean and long-lasting results</p>
+            </div>
+          </div>
+
+          <div class="service-body">
+            <p class="desc">
+              Professional waxing services that leave your skin smooth, soft, and hair-free with long-lasting results.
+            </p>
+
+            <div class="options">
+              <label class="option">
+                <input type="radio" name="waxing" checked>
+                <div class="opt-box">
+                  <div>Full Body Waxing</div>
+                </div>
+              </label>
+
+              <label class="option">
+                <input type="radio" name="waxing">
+                <div class="opt-box">
+                  <div>Brazilian Wax</div>
+                </div>
+              </label>
+
+              <label class="option">
+                <input type="radio" name="waxing">
+                <div class="opt-box">
+                  <div>Arms & Legs Waxing</div>
+                </div>
+              </label>
+
+              <label class="option">
+                <input type="radio" name="waxing">
+                <div class="opt-box">
+                  <div>Facial Waxing</div>
+                </div>
+              </label>
+            </div>
+
+            <div class="service-actions">
+              <button class="btn btn-gold book-now" data-service="Waxing Services">Book</button>
+              <a class="btn btn-outline" href="projects/waxing.html">Details</a>
+            </div>
+          </div>
+        </article>
+        <!-- Nail Services -->
+        <article class="service">
+          <div class="service-head">
+            <i class="fa-solid fa-hand-sparkles icon"></i>
+            <div>
+              <h3>Nail Services</h3>
+              <p class="muted">Elegant nail care & beauty</p>
+            </div>
+          </div>
+
+          <div class="service-body">
+            <p class="desc">
+              Enhance your hands with professional nail care services, delivering clean, polished, and stylish results.
+            </p>
+
+            <div class="options">
+              <label class="option">
+                <input type="radio" name="nails" checked>
+                <div class="opt-box">
+                  <div>Gel Manicure</div>
+                </div>
+              </label>
+
+              <label class="option">
+                <input type="radio" name="nails">
+                <div class="opt-box">
+                  <div>Acrylic Nails</div>
+                </div>
+              </label>
+
+              <label class="option">
+                <input type="radio" name="nails">
+                <div class="opt-box">
+                  <div>Nail Art & Design</div>
+                </div>
+              </label>
+
+              <label class="option">
+                <input type="radio" name="nails">
+                <div class="opt-box">
+                  <div>Manicure & Pedicure</div>
+                </div>
+              </label>
+            </div>
+
+            <div class="service-actions">
+              <button class="btn btn-gold book-now" data-service="Nail Services">Book</button>
+              <a class="btn btn-outline" href="projects/nails.html">Details</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Facial & Skincare -->
+        <article class="service">
+          <div class="service-head">
+            <i class="fa-solid fa-face-smile icon"></i>
+            <div>
+              <h3>Facial & Skincare</h3>
+              <p class="muted">Glow-enhancing skin treatments</p>
+            </div>
+          </div>
+
+          <div class="service-body">
+            <p class="desc">
+              Revitalize your skin with expert facial and skincare treatments designed to cleanse, nourish, and enhance
+              your natural glow.
+            </p>
+
+            <div class="options">
+              <label class="option">
+                <input type="radio" name="facial" checked>
+                <div class="opt-box">
+                  <div>Deep Cleansing Facial</div>
+                </div>
+              </label>
+
+              <label class="option">
+                <input type="radio" name="facial">
+                <div class="opt-box">
+                  <div>Acne Treatment Facial</div>
+                </div>
+              </label>
+
+              <label class="option">
+                <input type="radio" name="facial">
+                <div class="opt-box">
+                  <div>Anti-Aging Facial</div>
+                </div>
+              </label>
+
+              <label class="option">
+                <input type="radio" name="facial">
+                <div class="opt-box">
+                  <div>Brightening Facial</div>
+                </div>
+              </label>
+            </div>
+
+            <div class="service-actions">
+              <button class="btn btn-gold book-now" data-service="Facial & Skincare">Book</button>
+              <a class="btn btn-outline" href="projects/facial.html">Details</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Brows & Lashes -->
+        <article class="service">
+          <div class="service-head">
+            <i class="fa-solid fa-eye icon"></i>
+            <div>
+              <h3>Brows & Lashes</h3>
+              <p class="muted">Defined, bold and beautiful looks</p>
+            </div>
+          </div>
+
+          <div class="service-body">
+            <p class="desc">
+              Enhance your natural features with expertly shaped brows and professionally applied lash treatments.
+            </p>
+
+            <div class="options">
+              <label class="option">
+                <input type="radio" name="brows" checked>
+                <div class="opt-box">
+                  <div>Eyebrow Tinting</div>
+                </div>
+              </label>
+
+              <label class="option">
+                <input type="radio" name="brows">
+                <div class="opt-box">
+                  <div>Brow Shaping</div>
+                </div>
+              </label>
+
+              <label class="option">
+                <input type="radio" name="brows">
+                <div class="opt-box">
+                  <div>Lash Lifting</div>
+                </div>
+              </label>
+
+              <label class="option">
+                <input type="radio" name="brows">
+                <div class="opt-box">
+                  <div>Strip Lash Application</div>
+                </div>
+              </label>
+            </div>
+
+            <div class="service-actions">
+              <button class="btn btn-gold book-now" data-service="Brows & Lashes">Book</button>
+              <a class="btn btn-outline" href="projects/brows.html">Details</a>
+            </div>
+          </div>
+        </article>
+
+
+        <!-- Spa & Massage -->
+        <article class="service">
+          <div class="service-head">
+            <i class="fa-solid fa-spa icon"></i>
+            <div>
+              <h3>Spa & Massage</h3>
+              <p class="muted">Relaxation and body wellness</p>
+            </div>
+          </div>
+
+          <div class="service-body">
+            <p class="desc">
+              Unwind and relieve stress with calming massage therapies designed to relax your body and mind.
+            </p>
+
+            <div class="options">
+              <label class="option">
+                <input type="radio" name="spa" checked>
+                <div class="opt-box">
+                  <div>Full Body Massage</div>
+                </div>
+              </label>
+
+              <label class="option">
+                <input type="radio" name="spa">
+                <div class="opt-box">
+                  <div>Back & Neck Massage</div>
+                </div>
+              </label>
+
+              <label class="option">
+                <input type="radio" name="spa">
+                <div class="opt-box">
+                  <div>Aromatherapy Massage</div>
+                </div>
+              </label>
+
+              <label class="option">
+                <input type="radio" name="spa">
+                <div class="opt-box">
+                  <div>Hot Stone Massage</div>
+                </div>
+              </label>
+            </div>
+
+            <div class="service-actions">
+              <button class="btn btn-gold book-now" data-service="Spa & Massage">Book</button>
+              <a class="btn btn-outline" href="projects/spa.html">Details</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <!-- SERVICES (interactive durations + prices) -->
+  <section id="services" class="section services">
+    <div class="wrap">
+      <h2 class="section-title">Signature Services</h2>
+
+      <div class="services-grid">
+
+        <!-- Swedish Massage -->
+        <article class="service">
+          <div class="service-head">
+            <i class="fa-solid fa-hand-holding-droplet icon"></i>
+            <div>
+              <h3>Swedish Massage</h3>
+              <p class="muted">Relaxing circulation-focused therapy</p>
+            </div>
+          </div>
+          <div class="service-body">
+            <p class="desc">Gentle long strokes to relieve tension and restore flow.</p>
+            <div class="options">
+              <label class="option"><input type="radio" name="swedish" checked>
+                <div class="opt-box">
+                  <div>30 min</div>
+                  <div class="price">KES 2,500</div>
+                </div>
+              </label>
+              <label class="option"><input type="radio" name="swedish">
+                <div class="opt-box">
+                  <div>60 min</div>
+                  <div class="price">KES 4,500</div>
+                </div>
+              </label>
+              <label class="option"><input type="radio" name="swedish">
+                <div class="opt-box">
+                  <div>90 min</div>
+                  <div class="price">KES 6,500</div>
+                </div>
+              </label>
+            </div>
+            <div class="service-actions">
+              <button class="btn btn-gold book-now" data-service="Swedish Massage">Book</button>
+              <a class="btn btn-outline" href="#">Details</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Deep Tissue -->
+        <article class="service">
+          <div class="service-head">
+            <i class="fa-solid fa-hand-rock icon"></i>
+            <div>
+              <h3>Deep Tissue</h3>
+              <p class="muted">Intense muscle therapy</p>
+            </div>
+          </div>
+          <div class="service-body">
+            <p class="desc">Targeted pressure to relieve chronic tension and muscle knots.</p>
+            <div class="options">
+              <label class="option"><input type="radio" name="deep" checked>
+                <div class="opt-box">
+                  <div>30 min</div>
+                  <div class="price">KES 3,000</div>
+                </div>
+              </label>
+              <label class="option"><input type="radio" name="deep">
+                <div class="opt-box">
+                  <div>60 min</div>
+                  <div class="price">KES 5,500</div>
+                </div>
+              </label>
+              <label class="option"><input type="radio" name="deep">
+                <div class="opt-box">
+                  <div>90 min</div>
+                  <div class="price">KES 8,000</div>
+                </div>
+              </label>
+            </div>
+            <div class="service-actions">
+              <button class="btn btn-gold book-now" data-service="Deep Tissue">Book</button>
+              <a class="btn btn-outline" href="#">Details</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Signature Facial -->
+        <article class="service">
+          <div class="service-head">
+            <i class="fa-solid fa-face-smile icon"></i>
+            <div>
+              <h3>Signature Facial</h3>
+              <p class="muted">Glow & skin rejuvenation</p>
+            </div>
+          </div>
+          <div class="service-body">
+            <p class="desc">Deep cleanse, exfoliation, mask and hydration for radiant skin.</p>
+            <div class="options">
+              <label class="option"><input type="radio" name="facial" checked>
+                <div class="opt-box">
+                  <div>30 min</div>
+                  <div class="price">KES 2,800</div>
+                </div>
+              </label>
+              <label class="option"><input type="radio" name="facial">
+                <div class="opt-box">
+                  <div>60 min</div>
+                  <div class="price">KES 5,000</div>
+                </div>
+              </label>
+            </div>
+            <div class="service-actions">
+              <button class="btn btn-gold book-now" data-service="Signature Facial">Book</button>
+              <a class="btn btn-outline" href="#">Details</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Bridal & Event (ONLY ONE LEFT) -->
+        <article class="service">
+          <div class="service-head">
+            <i class="fa-solid fa-heart icon"></i>
+            <div>
+              <h3>Bridal & Event</h3>
+              <p class="muted">Complete glam for special occasions</p>
+            </div>
+          </div>
+          <div class="service-body">
+            <p class="desc">Professional hair and makeup services for weddings and events.</p>
+            <div class="options">
+              <label class="option"><input type="radio" name="bridal" checked>
+                <div class="opt-box">
+                  <div>Trial Session</div>
+                  <div class="price">KES 8,000</div>
+                </div>
+              </label>
+              <label class="option"><input type="radio" name="bridal">
+                <div class="opt-box">
+                  <div>Full Event Package</div>
+                  <div class="price">From KES 25,000</div>
+                </div>
+              </label>
+            </div>
+            <div class="service-actions">
+              <button class="btn btn-gold book-now" data-service="Bridal & Event">Book</button>
+              <a class="btn btn-outline" href="#">Details</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Waxing (NEW) -->
+        <article class="service">
+          <div class="service-head">
+            <i class="fa-solid fa-droplet icon"></i>
+            <div>
+              <h3>Waxing</h3>
+              <p class="muted">Smooth skin solutions</p>
+            </div>
+          </div>
+          <div class="service-body">
+            <p class="desc">Professional waxing services for smooth, long-lasting results.</p>
+            <div class="options">
+              <label class="option"><input type="radio" name="waxing" checked>
+                <div class="opt-box">
+                  <div>Full Body</div>
+                  <div class="price">KES 6,000</div>
+                </div>
+              </label>
+              <label class="option"><input type="radio" name="waxing">
+                <div class="opt-box">
+                  <div>Brazilian</div>
+                  <div class="price">KES 3,500</div>
+                </div>
+              </label>
+            </div>
+            <div class="service-actions">
+              <button class="btn btn-gold book-now" data-service="Waxing">Book</button>
+              <a class="btn btn-outline" href="#">Details</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Brows & Lashes (NEW) -->
+        <article class="service">
+          <div class="service-head">
+            <i class="fa-solid fa-eye icon"></i>
+            <div>
+              <h3>Brows & Lashes</h3>
+              <p class="muted">Defined beauty finishes</p>
+            </div>
+          </div>
+          <div class="service-body">
+            <p class="desc">Enhance your look with expert brow shaping and lash treatments.</p>
+            <div class="options">
+              <label class="option"><input type="radio" name="brows" checked>
+                <div class="opt-box">
+                  <div>Brow Shaping</div>
+                  <div class="price">KES 1,000</div>
+                </div>
+              </label>
+              <label class="option"><input type="radio" name="brows">
+                <div class="opt-box">
+                  <div>Lash Lift</div>
+                  <div class="price">KES 3,000</div>
+                </div>
+              </label>
+            </div>
+            <div class="service-actions">
+              <button class="btn btn-gold book-now" data-service="Brows & Lashes">Book</button>
+              <a class="btn btn-outline" href="#">Details</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <!-- ABOUT -->
+  <section id="about" class="section about">
+    <div class="wrap about-wrap">
+      <div class="about-media">
+        <img src="about.jpg" alt="Velour Spa interior">
+      </div>
+      <div class="about-copy">
+        <h2 class="section-title">About Velour Spa</h2>
+        <p class="muted">
+          Joy Beauty Parlor Spa is an award-winning salon and spa dedicated to delivering premium beauty and wellness
+          experiences
+          through expertly curated treatments. We specialize in a wide range of services including hair care, skincare,
+          massage therapy, makeup, and body treatments, all performed in a private, hygienic, and fully sterilized
+          environment that prioritizes your safety and comfort.
+
+          Our team of certified and highly trained therapists combines industry expertise with the latest techniques and
+          high-quality products to ensure exceptional results. Every session is carefully tailored to meet your
+          individual needs, whether you are seeking relaxation, rejuvenation, or a complete beauty transformation.
+
+          At Joy Beauty Parlor Spa , we are committed to excellence, professionalism, and client satisfaction, making us
+          a trusted
+          destination for luxury salon and spa services. Experience personalized care, attention to detail, and a serene
+          atmosphere designed to help you look and feel your best.
+        </p>
+        <ul class="features">
+          <li><i class="fa-solid fa-check"></i> Highly trained and certified therapists providing expert, customized
+            beauty and wellness treatments</li>
+
+          <li><i class="fa-solid fa-check"></i> Carefully selected premium products that nourish, protect, and enhance
+            your skin and hair</li>
+
+          <li><i class="fa-solid fa-check"></i> Exclusive private luxury suites offering a serene, hygienic, and
+            relaxing spa experience</li>
+        </ul>
+        <div style="margin-top:18px">
+          <button class="btn btn-outline" id="learnMore">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="section gallery">
+    <div class="wrap">
+      <h2 class="section-title">Gallery</h2>
+      <div class="gallery-grid">
+        <img src="g1.jpg" alt="">
+        <img src="g2.jpg" alt="">
+        <img src="g3.jpg" alt="">
+        <img src="g4.jpg" alt="">
+        <img src="g5.jpg" alt="">
+        <img src="g6.jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT CTA -->
+  <section id="contact" class="section contact">
+    <div class="wrap contact-grid">
+      <div>
+        <h2 class="section-title">Ready to Book?</h2>
+        <p class="muted">Call or email to reserve your experience — or use the booking button.</p>
+      </div>
+
+      <div class="contact-actions">
+        <a class="btn btn-gold" href="tel:+254700000000"><i class="fa-solid fa-phone"></i> Call</a>
+        <button class="btn btn-outline" id="openBook2"><i class="fa-solid fa-calendar-plus"></i> Request
+          Booking</button>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="wrap footer-grid">
+      <div>
+        <h3>Velour Spa</h3>
+        <p class="muted">Premium salon & spa — Nairobi</p>
+      </div>
+
+      <div>
+        <h4>Quick Links</h4>
+        <a href="#services">Services</a><br>
+        <a href="#gallery">Gallery</a><br>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div>
+        <h4>Contact</h4>
+        <p class="muted">info@velourspa.com<br>+254 700 000 000</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">© <span id="yr"></span> Velour Spa</div>
+  </footer>
+
+  <!-- BOOKING MODAL -->
+  <!-- BOOKING MODAL -->
+<div id="modal" class="modal" aria-hidden="true">
+  <div class="modal-panel">
+    <button class="modal-close" id="closeModal">×</button>
+
+    <h3>Request a Booking</h3>
+
+    <form id="bookingForm">
+
+      <label>Name
+        <input type="text" id="bname" required>
+      </label>
+
+      <label>Contact
+        <input type="text" id="bcontact" required>
+      </label>
+
+      <label>Service
+        <input type="text" id="bservice" readonly>
+      </label>
+
+      <label>Selected Option
+        <input type="text" id="boption" readonly>
+      </label>
+
+      <label>Date & Time
+        <input type="datetime-local" id="btime" required>
+      </label>
+
+      <button class="btn primary" type="submit">
+        Send on WhatsApp
+      </button>
+
+      <button class="btn outline" type="button" id="cancelModal">
+        Cancel
+      </button>
+
+      <p id="bookingMsg" class="muted"></p>
+    </form>
+  </div>
+</div>
+
+  <script>
+    // mobile nav
+    const btnHamb = document.getElementById('btnHamburger');
+    const mobileNav = document.getElementById('mobileNav');
+    btnHamb.addEventListener('click', () => {
+      mobileNav.classList.toggle('show');
+      btnHamb.classList.toggle('open');
+      mobileNav.setAttribute('aria-hidden', !mobileNav.classList.contains('show'));
+    });
+
+    // slideshow
+    (function () {
+      const slides = document.querySelectorAll('.slide');
+      let i = 0;
+      function show() {
+        slides.forEach(s => s.classList.remove('active'));
+        slides[i].classList.add('active');
+        i = (i + 1) % slides.length;
+      }
+      show();
+      setInterval(show, 5000);
+    })();
+
+    // booking modal openers (service buttons populate service)
+   const modal = document.getElementById('modal');
+const bookingForm = document.getElementById('bookingForm');
+const bookingMsg = document.getElementById('bookingMsg');
+
+const bservice = document.getElementById('bservice');
+const boption = document.getElementById('boption');
+
+const openButtons = document.querySelectorAll('.book-now');
+const closeModal = document.getElementById('closeModal');
+const cancelModal = document.getElementById('cancelModal');
+
+let currentService = "";
+let currentOption = "";
+
+// OPEN MODAL
+function openModal(serviceName) {
+  currentService = serviceName;
+
+  bservice.value = serviceName;
+  boption.value = "Select option above";
+
+  modal.classList.add('open');
+  modal.setAttribute('aria-hidden', 'false');
+}
+
+// BOOK BUTTON CLICK
+openButtons.forEach(btn => {
+  btn.addEventListener('click', () => {
+    openModal(btn.dataset.service);
+  });
+});
+
+// AUTO DETECT SELECTED OPTION (RADIO BUTTONS)
+document.querySelectorAll('.service').forEach(serviceBox => {
+  serviceBox.addEventListener('change', (e) => {
+    if (e.target.type === "radio") {
+
+      const label = e.target.closest('.option');
+
+      if (label) {
+        const text = label.innerText.trim();
+        currentOption = text;
+        boption.value = text;
+      }
+    }
+  });
+});
+
+// CLOSE MODAL
+function close() {
+  modal.classList.remove('open');
+  modal.setAttribute('aria-hidden', 'true');
+}
+
+closeModal.onclick = close;
+cancelModal.onclick = close;
+
+modal.addEventListener('click', (e) => {
+  if (e.target === modal) close();
+});
+
+// WHATSAPP SUBMIT
+bookingForm.addEventListener('submit', (e) => {
+  e.preventDefault();
+
+  const name = document.getElementById('bname').value;
+  const contact = document.getElementById('bcontact').value;
+  const service = bservice.value;
+  const option = boption.value;
+  const time = document.getElementById('btime').value;
+
+  const phoneNumber = "254745723795"; // your WhatsApp number
+
+  const message =
+`💇‍♀️ NEW BOOKING REQUEST
+
+👤 Name: ${name}
+📞 Contact: ${contact}
+💼 Service: ${service}
+✨ Option: ${option}
+📅 Date & Time: ${time}
+
+Please confirm availability.`;
+
+  const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
+  window.open(url, "_blank");
+
+  bookingMsg.textContent = "Opening WhatsApp...";
+
+  bookingForm.reset();
+  setTimeout(close, 1000);
+});
+  </script>
+
+</body>
+
+</html>
