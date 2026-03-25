@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spa Gallery</title>
+
+<link rel="stylesheet" href="gallery.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<header class="top">
+  <h1>Luxury Spa Gallery</h1>
+  <p>Explore our beauty transformations</p>
+</header>
+
+<!-- FILTER BUTTONS -->
+<div class="filters">
+  <button class="filter active" data-filter="all">All</button>
+  <button class="filter" data-filter="nails">Nails</button>
+  <button class="filter" data-filter="feet">Feet</button>
+  <button class="filter" data-filter="massage">Massage</button>
+  <button class="filter" data-filter="makeup">Makeup</button>
+</div>
+
+<!-- GALLERY GRID -->
+<section class="gallery">
+
+  <!-- NAILS -->
+  <div class="item nails">
+    <img src="nails1.jpg">
+    <div class="overlay">Gel Nails</div>
+  </div>
+
+  <div class="item nails">
+    <img src="nails2.jpg">
+    <div class="overlay">Acrylic Nails</div>
+  </div>
+
+  <!-- FEET -->
+  <div class="item feet">
+    <img src="feet1.jpg">
+    <div class="overlay">Spa Pedicure</div>
+  </div>
+
+  <div class="item feet">
+    <img src="feet2.jpg">
+    <div class="overlay">Foot Massage</div>
+  </div>
+
+  <!-- MASSAGE -->
+  <div class="item massage">
+    <img src="massage1.jpg">
+    <div class="overlay">Full Body Massage</div>
+  </div>
+
+  <div class="item massage">
+    <img src="massage2.jpg">
+    <div class="overlay">Hot Stone Therapy</div>
+  </div>
+
+  <!-- MAKEUP -->
+  <div class="item makeup">
+    <img src="makeup1.jpg">
+    <div class="overlay">Bridal Glam</div>
+  </div>
+
+  <div class="item makeup">
+    <img src="makeup2.jpg">
+    <div class="overlay">Evening Makeup</div>
+  </div>
+
+</section>
+
+<script src="gallery.js"></script>
+
+</body>
+</html>
