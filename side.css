@@ -125,7 +125,7 @@ body {
 ========================= */
 .hero {
    background: linear-gradient(rgba(11, 28, 45, 0.527), rgba(11, 28, 45, 0.466)),
-              url('images/beauty3.png');
+              url('gallery/beauty3.png');
   position: relative;
   min-height: 70vh;
   display: flex;
