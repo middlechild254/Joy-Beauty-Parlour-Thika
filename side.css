@@ -124,6 +124,8 @@ body {
    HERO
 ========================= */
 .hero {
+   background: linear-gradient(rgba(11, 28, 45, 0.527), rgba(11, 28, 45, 0.466)),
+              url('images/beauty3.png');
   position: relative;
   min-height: 70vh;
   display: flex;
@@ -139,7 +141,7 @@ body {
 .slide {
   position: absolute;
   inset: 0;
-  background-size: cover;
+  background-size:contain;
   background-position: center;
   opacity: 0;
   transition: 1s;
@@ -204,6 +206,11 @@ body {
   background: rgba(255, 255, 255, 0.05);
 }
 
+
+
+
+
+
 /* =========================
    SERVICES
 ========================= */
@@ -216,12 +223,14 @@ body {
   color: var(--gold);
   font-size: 30px;
   margin-bottom: 25px;
+  margin-top: -60px;
 }
 
 .services-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
+  margin-top: -10px;
 }
 
 .service {
@@ -323,19 +332,56 @@ body {
   gap: 20px;
 }
 
-/* =========================
-   FOOTER
-========================= */
+/* FOOTER */
 .footer {
-  background: #050505;
-  padding: 40px 0;
-  text-align: center;
+  background: #0f0f0f;
+  color: #fff;
+  padding: 60px 20px 20px;
+  margin-top: 50px;
+  border-top: 2px solid rgba(212,175,55,0.3);
 }
 
-.footer-grid {
+.footer-container {
+  width: 90%;
+  margin: auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.footer-box h3 {
+  color: var(--gold);
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.footer-box p {
+  color: #bbb;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+.footer-box a {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  margin-bottom: 8px;
+  transition: 0.3s;
+}
+
+.footer-box a:hover {
+  color: var(--gold);
+  padding-left: 5px;
+}
+
+/* BOTTOM BAR */
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  color: #777;
+  font-size: 13px;
 }
 
 /* =========================
