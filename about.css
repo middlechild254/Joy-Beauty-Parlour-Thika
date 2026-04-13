@@ -88,7 +88,7 @@ nav a.active::after {
 .hero {
   height: 300px;
   background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-              url('images/ann25.jpg') center/cover no-repeat;
+              url('gallery/ann25.jpg') center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
