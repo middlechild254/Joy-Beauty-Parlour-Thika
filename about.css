@@ -14,26 +14,6 @@
 }
 
 /* HEADER (STICKY) */
-.header {
-  position: sticky;
-  top: 0;
-  background: rgba(15, 15, 15, 0.95);
-  backdrop-filter: blur(6px);
-  z-index: 1000;
-  padding: 15px 0;
-}
-
-.container {
-  width: 90%;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  color: var(--gold);
-}
 
 /* NAVIGATION */
 nav {
